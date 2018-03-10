@@ -1,0 +1,13 @@
+{
+  "allOf": [
+    {
+      "$ref": "http://ds.iris.edu/files/staff/chad/FDSN-ExtraHeaders.schema"
+    },
+    {
+      "$ref": "http://ds.iris.edu/files/staff/chad/OperatorXYZ-ExtraHeaders.schema",
+    },
+    {
+      "$ref": "http://ds.iris.edu/files/staff/chad/Manufacturer123-ExtraHeaders.schema",
+    }
+  ]
+}
