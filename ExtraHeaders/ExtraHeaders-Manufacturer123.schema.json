@@ -6,11 +6,13 @@
         "Manufacturer123": {
             "description": "Extra headers defined by the Manufacturer123",
             "type": "object",
+            "additionalProperties": false,
             "properties": {
 
                 "Metadata": {
                     "description": "Headers for metadata for a light bulb in the TARDIS",
                     "type": "object",
+                    "additionalProperties": false,
                     "properties": {
                         "FilamentCurrent": {
                             "description": "Average current in filament in picoamps",

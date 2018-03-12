@@ -6,11 +6,13 @@
         "OperatorXYZ": {
             "description": "Extra headers defined by the OperatorXYZ",
             "type": "object",
+            "additionalProperties": false,
             "properties": {
 
                 "DSP": {
                     "description": "Headers related to digital signal processing",
                     "type": "object",
+                    "additionalProperties": false,
                     "properties": {
                         "PeakRMS": {
                             "description": "Peak RMS value of samples in record",
