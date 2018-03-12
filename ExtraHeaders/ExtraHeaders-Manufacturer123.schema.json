@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "id": "http://www.fdsn.org/schemas/Manufacturer123-ExtraHeaders.schema",
+    "id": "http://www.fdsn.org/schemas/Manufacturer123-ExtraHeaders.schema.json",
 
     "properties": {
         "Manufacturer123": {

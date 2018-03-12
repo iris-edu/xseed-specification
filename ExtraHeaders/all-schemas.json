@@ -1,13 +1,13 @@
 {
   "allOf": [
     {
-      "$ref": "http://ds.iris.edu/files/staff/chad/FDSN-ExtraHeaders.schema"
+      "$ref": "https://raw.githubusercontent.com/iris-edu/xseed-specification/master/ExtraHeaders/FDSN-ExtraHeaders.schema.json"
     },
     {
-      "$ref": "http://ds.iris.edu/files/staff/chad/OperatorXYZ-ExtraHeaders.schema",
+      "$ref": "https://raw.githubusercontent.com/iris-edu/xseed-specification/master/ExtraHeaders/OperatorXYZ-ExtraHeaders.schema.json"
     },
     {
-      "$ref": "http://ds.iris.edu/files/staff/chad/Manufacturer123-ExtraHeaders.schema",
+      "$ref": "https://raw.githubusercontent.com/iris-edu/xseed-specification/master/ExtraHeaders/Manufacturer123-ExtraHeaders.schema.json"
     }
   ]
 }
