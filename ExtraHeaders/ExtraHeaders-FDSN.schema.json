@@ -99,7 +99,7 @@
                             "type": "boolean"
                         },
                         "InProgress": {
-                            "description": "An event is in progress.",
+                            "description": "An event is in progress. [same as SEED 2.4 FSDH, field 12, bit 6]",
                             "type": "boolean"
                         },
                         "Detection": {
