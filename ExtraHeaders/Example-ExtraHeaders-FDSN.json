@@ -2,7 +2,7 @@
     "FDSN": {
         "Time": {
             "ClockLocked": false,
-            "TimeTagQuestionable": false,
+            "TagQuestionable": false,
             "Quality": 100,
             "Correction": 1.234,
             "LeapSecond": 1,
