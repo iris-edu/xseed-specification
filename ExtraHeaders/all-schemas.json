@@ -1,13 +1,13 @@
 {
   "allOf": [
     {
-      "$ref": "FDSN-ExtraHeaders.schema.json"
+      "$ref": "https://iris-edu.github.io/xseed-specification/ExtraHeaders/FDSN-ExtraHeaders.schema.json"
     },
     {
-      "$ref": "Manufacturer123-ExtraHeaders.schema.json"
+      "$ref": "https://iris-edu.github.io/xseed-specification/ExtraHeaders/Manufacturer123-ExtraHeaders.schema.json"
     },
     {
-      "$ref": "OperatorXYZ-ExtraHeaders.schema.json"
+      "$ref": "https://iris-edu.github.io/xseed-specification/ExtraHeaders/OperatorXYZ-ExtraHeaders.schema.json"
     }
   ]
 }
