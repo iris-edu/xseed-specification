@@ -99,7 +99,7 @@
                             "type": "boolean"
                         },
                         "InProgress": {
-                            "description": "An event is in progress. [same as SEED 2.4 FSDH, field 12, bit 0]",
+                            "description": "An event is in progress.",
                             "type": "boolean"
                         },
                         "Detection": {
@@ -165,89 +165,100 @@
 
                 "Calibration": {
                     "description": "Headers related to calibrations",
-                    "type": "array",
-                    "items": {
-                        "description": "List of event calibrations",
-                        "type": "object",
-                        "additionalProperties": false,
-                        "properties": {
-                            "Type": {
-                                "description": "Type of calibration: STEP, SINE, PSEUDORANDOM, GENERIC.",
-                                "type": "string"
-                            },
-                            "BeginTime": {
-                                "description": "Calibration begin time. [similar to SEED 2.4 Blockettes 300,310,320,390, field 3]",
-                                "type": "string",
-                                "format": "date-time"
-                            },
-                            "EndTime": {
-                                "description": "Calibration end time. [same as SEED 2.4 Blockette 395, field 3]",
-                                "type": "string",
-                                "format": "date-time"
-                            },
-                            "Steps": {
-                                "description": "Number of step calibrations in sequence. [same as SEED 2.4 Blockette 300, field 4]",
-                                "type": "number"
-                            },
-                            "StepFirstPulsePositive": {
-                                "description": "Step calibration, first pulse is positive. [same as SEED 2.4 Blockette 300, field 5, bit 0]",
-                                "type": "boolean"
-                            },
-                            "StepAlternateSign": {
-                                "description": "Step calibration alternate sign.  [same as SEED 2.4 Blockettes 300, field 5, bit 1]",
-                                "type": "boolean"
-                            },
-                            "Trigger": {
-                                "description": "Calibration trigger, use AUTOMATIC or MANUAL. [same as SEED 2.4 Blockettes 300,310,320,390, field 5, bit 2]",
-                                "type": "string"
-                            },
-                            "Continued": {
-                                "description": "Calibration is continued from previous records. [same as SEED 2.4 Blockettes 300,310,320,390, field 5, bit 3]",
-                                "type": "boolean"
-                            },
-                            "Amplitude": {
-                                "description": "Amplitude of calibration signal.  For pseudo-random calibrations, this should be the peak-to-peak amplitude of the steps. [same as SEED 2.4 Blockettes 300,310, field 8 and Blockettes 320,390, field 6]",
-                                "type": "number"
-                            },
-                            "InputUnits": {
-                                "description": "Units of calibration input, usually volts or amps. [same as SEED 2.4 Blockette 52, field 9]",
-                                "type": "string"
-                            },
-                            "AmplitudeRange": {
-                                "description": "Amplitude range of calibration, use values of PEAKTOPEAK, ZEROTOPEAK, RMS OR RANDOM. [same as SEED 2.4 Blockette 310, field 5, bits 4,5,6 and Blockette 320, field 5, bit 4]",
-                                "type": "string"
-                            },
-                            "Duration": {
-                                "description": "Duration of calibration in seconds. For step calibrations this is the duration of the step.  [same as SEED 2.4 Blockettes 300,310,320,390, field 6]",
-                                "type": "number"
-                            },
-                            "SinePeriod": {
-                                "description": "Period of sine calibrations in seconds. [same as SEED 2.4 Blockette 310, field 7]",
-                                "type": "number"
-                            },
-                            "StepBetween": {
-                                "description": "Interval between times a step calibration is on in seconds. [same as SEED 2.4 Blockette 300, field 7]",
-                                "type": "number"
-                            },
-                            "InputChannel": {
-                                "description": "Channel containing the calibration input. [same as SEED 2.4 Blockettes 300,310, field 9 and Blockettes 320,390, field 8]",
-                                "type": "string"
-                            },
-                            "ReferenceAmplitude": {
-                                "description": "Reference amplitude.  This is a user-defined value that indicates either the voltage or amperage of the calibration signal when the calibrator is set to 0dB. [same as SEED 2.4 Blockettes 300,310, field 11 and Blockette 320, field 10]",
-                                "type": "number"
-                            },
-                            "Coupling": {
-                                "description": "Coupling of the calibration signal, such as RESISTIVE or CAPACITIVE. [same as SEED 2.4 Blockettes 300,310, field 12 and Blockette 320, field 11]",
-                                "type": "string"
-                            },
-                            "Rolloff": {
-                                "description": "Rolloff characteristics for any filters used on the calibrator, such as 3dB@10Hz.  [same as SEED 2.4 Blockettes 300,310, field 13 and Blockette 320, field 12]",
-                                "type": "string"
-                            },
-                            "Noise": {
-                                "description": "Noise characteristics for pseudo-random calibrations, such as WHITE or RED. [same as SEED 2.4 Blockette 320, field 13]",
-                                "type": "string"
+                    "type": "object",
+                    "additionalProperties": false,
+                    "properties": {
+                        "InProgress": {
+                            "description": "An calibration is in progress. [same as SEED 2.4 FSDH, field 12, bit 0]",
+                            "type": "boolean"
+                        },
+                        "Sequence": {
+                            "description": "List of calibration sequences",
+                            "type": "array",
+                            "items": {
+                                "description": "List of event calibrations",
+                                "type": "object",
+                                "additionalProperties": false,
+                                "properties": {
+                                    "Type": {
+                                        "description": "Type of calibration: STEP, SINE, PSEUDORANDOM, GENERIC.",
+                                        "type": "string"
+                                    },
+                                    "BeginTime": {
+                                        "description": "Calibration begin time. [similar to SEED 2.4 Blockettes 300,310,320,390, field 3]",
+                                        "type": "string",
+                                        "format": "date-time"
+                                    },
+                                    "EndTime": {
+                                        "description": "Calibration end time. [same as SEED 2.4 Blockette 395, field 3]",
+                                        "type": "string",
+                                        "format": "date-time"
+                                    },
+                                    "Steps": {
+                                        "description": "Number of step calibrations in sequence. [same as SEED 2.4 Blockette 300, field 4]",
+                                        "type": "number"
+                                    },
+                                    "StepFirstPulsePositive": {
+                                        "description": "Step calibration, first pulse is positive. [same as SEED 2.4 Blockette 300, field 5, bit 0]",
+                                        "type": "boolean"
+                                    },
+                                    "StepAlternateSign": {
+                                        "description": "Step calibration alternate sign.  [same as SEED 2.4 Blockettes 300, field 5, bit 1]",
+                                        "type": "boolean"
+                                    },
+                                    "Trigger": {
+                                        "description": "Calibration trigger, use AUTOMATIC or MANUAL. [same as SEED 2.4 Blockettes 300,310,320,390, field 5, bit 2]",
+                                        "type": "string"
+                                    },
+                                    "Continued": {
+                                        "description": "Calibration is continued from previous records. [same as SEED 2.4 Blockettes 300,310,320,390, field 5, bit 3]",
+                                        "type": "boolean"
+                                    },
+                                    "Amplitude": {
+                                        "description": "Amplitude of calibration signal.  For pseudo-random calibrations, this should be the peak-to-peak amplitude of the steps. [same as SEED 2.4 Blockettes 300,310, field 8 and Blockettes 320,390, field 6]",
+                                        "type": "number"
+                                    },
+                                    "InputUnits": {
+                                        "description": "Units of calibration input, usually volts or amps. [same as SEED 2.4 Blockette 52, field 9]",
+                                        "type": "string"
+                                    },
+                                    "AmplitudeRange": {
+                                        "description": "Amplitude range of calibration, use values of PEAKTOPEAK, ZEROTOPEAK, RMS OR RANDOM. [same as SEED 2.4 Blockette 310, field 5, bits 4,5,6 and Blockette 320, field 5, bit 4]",
+                                        "type": "string"
+                                    },
+                                    "Duration": {
+                                        "description": "Duration of calibration in seconds. For step calibrations this is the duration of the step.  [same as SEED 2.4 Blockettes 300,310,320,390, field 6]",
+                                        "type": "number"
+                                    },
+                                    "SinePeriod": {
+                                        "description": "Period of sine calibrations in seconds. [same as SEED 2.4 Blockette 310, field 7]",
+                                        "type": "number"
+                                    },
+                                    "StepBetween": {
+                                        "description": "Interval between times a step calibration is on in seconds. [same as SEED 2.4 Blockette 300, field 7]",
+                                        "type": "number"
+                                    },
+                                    "InputChannel": {
+                                        "description": "Channel containing the calibration input. [same as SEED 2.4 Blockettes 300,310, field 9 and Blockettes 320,390, field 8]",
+                                        "type": "string"
+                                    },
+                                    "ReferenceAmplitude": {
+                                        "description": "Reference amplitude.  This is a user-defined value that indicates either the voltage or amperage of the calibration signal when the calibrator is set to 0dB. [same as SEED 2.4 Blockettes 300,310, field 11 and Blockette 320, field 10]",
+                                        "type": "number"
+                                    },
+                                    "Coupling": {
+                                        "description": "Coupling of the calibration signal, such as RESISTIVE or CAPACITIVE. [same as SEED 2.4 Blockettes 300,310, field 12 and Blockette 320, field 11]",
+                                        "type": "string"
+                                    },
+                                    "Rolloff": {
+                                        "description": "Rolloff characteristics for any filters used on the calibrator, such as 3dB@10Hz.  [same as SEED 2.4 Blockettes 300,310, field 13 and Blockette 320, field 12]",
+                                        "type": "string"
+                                    },
+                                    "Noise": {
+                                        "description": "Noise characteristics for pseudo-random calibrations, such as WHITE or RED. [same as SEED 2.4 Blockette 320, field 13]",
+                                        "type": "string"
+                                    }
+                                }
                             }
                         }
                     }
