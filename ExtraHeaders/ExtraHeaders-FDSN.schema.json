@@ -223,7 +223,7 @@
                                         "type": "boolean"
                                     },
                                     "Amplitude": {
-                                        "description": "Amplitude of calibration signal.  For pseudo-random calibrations, this should be the peak-to-peak amplitude of the steps. [same as SEED 2.4 Blockettes 300,310, field 8 and Blockettes 320,390, field 6]",
+                                        "description": "Amplitude of calibration signal.  For pseudo-random calibrations, this should be the peak-to-peak amplitude of the steps. [same as SEED 2.4 Blockettes 300,310, field 8 and Blockettes 320,390, field 7]",
                                         "type": "number"
                                     },
                                     "InputUnits": {
