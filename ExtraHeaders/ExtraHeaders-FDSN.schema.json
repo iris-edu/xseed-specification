@@ -133,8 +133,8 @@
                                         "description": "Event background estimate in counts. [same as SEED 2.4 Blockettews 200 and 201, field 5]",
                                         "type": "number"
                                     },
-                                    "DetectionWave": {
-                                        "description": "Event detection wave, use values of DILITATION or COMPRESSION if determined. [same as SEED 2.4 Blockettews 200 and 201, field 6, bit 0]",
+                                    "Wave": {
+                                        "description": "Event detection wave, use values of DILATATION or COMPRESSION if determined. [same as SEED 2.4 Blockettews 200 and 201, field 6, bit 0]",
                                         "type": "string"
                                     },
                                     "Units": {
