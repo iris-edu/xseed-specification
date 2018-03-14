@@ -1,6 +1,4 @@
-# xSEED specification
-
-[GitHub project](https://github.com/iris-edu/xseed-specification)
+[xSEED specification project on GitHub](https://github.com/iris-edu/xseed-specification)
 
 To contribute, ask questsions, etc. please use the [project issues](https://github.com/iris-edu/xseed-specification/issues)
 
@@ -9,6 +7,7 @@ Current draft of the IRIS xSEED and time series identifiers specifications:
 (DRAFT 2018-03-13)
 
 [xSEED - DRAFT 20180313.pdf](/xseed-specification/xSEED%20-%20DRAFT%2020180313.pdf)
+
 [IRIS Time Series Identifiers - DRAFT 20180313.pdf](/xseed-specification/IRIS%20Time%20Series%20Identifiers%20-%20DRAFT%2020180313.pdf)
 
 # Extra headers
