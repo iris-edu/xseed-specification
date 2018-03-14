@@ -28,3 +28,8 @@ All schemas, or selected schemas can be trivially combined using references in J
 JSON is not particularly readable by humans.  Here is a simple documentation generator that makes it a little easer:
 
 [Docson documentation from JSON Schema](https://lbovet.github.io/docson/#https://iris-edu.github.io/xseed-specification/ExtraHeaders/all-schemas.github.json)
+
+## Example of all reserved, FDSN extra headers
+
+[Example-ExtraHeaders-FDSN.json](/xseed-specification/ExtraHeaders/Example-ExtraHeaders-FDSN.json)
+
