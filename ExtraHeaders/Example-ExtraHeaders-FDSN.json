@@ -72,11 +72,11 @@
                     "InputChannel": "CAL",
                     "ReferenceAmplitude": 45.8,
                     "Coupling": "RESISTIVE",
-                    "Rolloff": "Description of rolloff",
+                    "Rolloff": "Description of rolloff"
                 },
                 {
                     "Type": "Step",
-                    "EndTime": "2012-01-13T18:28:16.185000Z",
+                    "EndTime": "2012-01-13T18:28:16.185000Z"
                 },
                 {
                     "Type": "Sine",
@@ -91,7 +91,7 @@
                     "InputChannel": "CAL",
                     "ReferenceAmplitude": 45.8,
                     "Coupling": "RESISTIVE",
-                    "Rolloff": "Description of rolloff",
+                    "Rolloff": "Description of rolloff"
                 },
                 {
                     "Type": "PseudoRandom",
@@ -113,7 +113,7 @@
                     "EndTime": "2012-01-13T18:28:06.185000Z",
                     "Trigger": "MANUAL",
                     "Amplitude": 1345,
-                    "Duration": 100,
+                    "Duration": 100
                 }
             ]
         },
@@ -130,7 +130,7 @@
             "StartOfTimeSeries": true,
             "EndOfTimeSeries": true,
             "MissingData": true,
-            "TelemetrySyncError": true,
+            "TelemetrySyncError": true
         },
         "Logger": {
             "Model": "DM24",
