@@ -35,14 +35,6 @@
                     "type": "object",
                     "additionalProperties": false,
                     "properties": {
-                        "ClockLocked": {
-                            "description": "Is the clocked locked to a timing source, may be considered to be true if omitted. [same as SEED 2.4 FSDH, field 13, bit 5]",
-                            "type": "boolean"
-                        },
-                        "TagQuestionable": {
-                            "description": "Is the time tag questionable, may be considered to be false if omitted. [same as SEED 2.4 FSDH, field 14, bit 7]",
-                            "type": "boolean"
-                        },
                         "Quality": {
                             "description": "Timing quality.  A vendor specific value from 0 to 100% of maximum accuracy. [same as SEED 2.4 Blockette 1001, field 3]",
                             "type": "number"
@@ -176,10 +168,6 @@
                     "type": "object",
                     "additionalProperties": false,
                     "properties": {
-                        "InProgress": {
-                            "description": "An calibration is in progress. [same as SEED 2.4 FSDH, field 12, bit 0]",
-                            "type": "boolean"
-                        },
                         "Sequence": {
                             "description": "List of calibration sequences",
                             "type": "array",

@@ -1,8 +1,6 @@
 {
     "FDSN": {
         "Time": {
-            "ClockLocked": false,
-            "TagQuestionable": false,
             "Quality": 100,
             "Correction": 1.234,
             "LeapSecond": 1,
@@ -54,7 +52,6 @@
             ]
         },
         "Calibration": {
-            "InProgress": true,
             "Sequence": [
                 {
                     "Type": "Step",
