@@ -8,7 +8,7 @@ Current draft of the IRIS xSEED and time series identifiers specifications:
 
 [xSEED - DRAFT 20180324.pdf](/xseed-specification/xSEED%20-%20DRAFT%2020180324.pdf)
 
-[IRIS Time Series Identifiers - DRAFT 20180313.pdf](/xseed-specification/IRIS%20Time%20Series%20Source%20Identifiers%20-%20DRAFT%2020180324.pdf)
+[IRIS Time Series Source Identifiers - DRAFT 20180313.pdf](/xseed-specification/IRIS%20Time%20Series%20Source%20Identifiers%20-%20DRAFT%2020180324.pdf)
 
 # Extra headers
 
