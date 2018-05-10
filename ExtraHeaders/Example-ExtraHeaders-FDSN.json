@@ -141,6 +141,7 @@
             "Model": "P273T11N16",
             "Serial": "24A00000"
         },
+        "ProvenanceURI": "prov:sp001_wf_f84fb9a",
         "DataQuality": "D",
         "Sequence": 123456
     }

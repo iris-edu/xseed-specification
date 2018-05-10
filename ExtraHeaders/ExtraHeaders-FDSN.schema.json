@@ -332,6 +332,11 @@
                     "$ref": "#/definitions/Equipment"
                 },
 
+                "ProvenanceURI": {
+                    "description": "An identifier for a provenance description",
+                    "type": "string"
+                },
+
                 "DataQuality": {
                     "description": "Data quality indicator, use D, R, Q or M. [same as SEED 2.4 FSDH, field 2]",
                     "type": "string"
