@@ -114,6 +114,19 @@
                 }
             ]
         },
+        "Recenter": {
+            "Sequence": [
+                {
+                    "Type": "Gimbal",
+                    "BeginTime": "2012-01-13T18:27:06.185000Z",
+                    "EndTime": "2012-01-13T18:27:16.185000Z",
+                    "Trigger": "AUTOMATIC"
+                },
+                {
+                    "BeginTime": "2012-01-13T18:28:06.185000Z",
+                },
+            ]
+        },
         "Flags": {
             "MassPositionOffscale": true,
             "AmplifierSaturation": true,

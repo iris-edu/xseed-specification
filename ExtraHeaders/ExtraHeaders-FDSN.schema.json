@@ -172,7 +172,7 @@
                             "description": "List of calibration sequences",
                             "type": "array",
                             "items": {
-                                "description": "List of event calibrations",
+                                "description": "List of calibrations",
                                 "type": "object",
                                 "additionalProperties": false,
                                 "properties": {
@@ -254,6 +254,43 @@
                                         "description": "Noise characteristics for pseudo-random calibrations, such as WHITE or RED. [same as SEED 2.4 Blockette 320, field 13]",
                                         "type": "string"
                                     }
+                                }
+                            }
+                        }
+                    }
+                },
+
+                "Recenter": {
+                    "description": "Headers related to sensor recentering (mass, gimble, etc.)",
+                    "type": "object",
+                    "additionalProperties": false,
+                    "properties": {
+                        "Sequence": {
+                            "description": "List of recentering sequences",
+                            "type": "array",
+                            "items": {
+                                "description": "List of recenterings",
+                                "type": "object",
+                                "additionalProperties": false,
+                                "properties": {
+                                    "Type": {
+                                        "description": "Type of recenter: Mass, Gimbal, etc.  If omitted a mass recenter may be assumed.",
+                                        "type": "string"
+                                    },
+                                    "BeginTime": {
+                                        "description": "Recenter begin time.",
+                                        "type": "string",
+                                        "format": "date-time"
+                                    },
+                                    "EndTime": {
+                                        "description": "Estimate of recenter end time.",
+                                        "type": "string",
+                                        "format": "date-time"
+                                    },
+                                    "Trigger": {
+                                        "description": "Calibration trigger, use AUTOMATIC or MANUAL.",
+                                        "type": "string"
+                                    },
                                 }
                             }
                         }
