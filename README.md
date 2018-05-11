@@ -4,11 +4,11 @@ To contribute, ask questsions, etc. please use the [project issues](https://gith
 
 Current draft of the IRIS xSEED and time series identifiers specifications:
 
-(DRAFT 2018-03-24)
+(DRAFT 2018-05-11)
 
-[xSEED - DRAFT 20180324.pdf](/xseed-specification/xSEED%20-%20DRAFT%2020180324.pdf)
+[xSEED - DRAFT 20180511.pdf](/xseed-specification/xSEED%20-%20DRAFT%2020180511.pdf)
 
-[IRIS Time Series Source Identifiers - DRAFT 20180313.pdf](/xseed-specification/IRIS%20Time%20Series%20Source%20Identifiers%20-%20DRAFT%2020180324.pdf)
+[IRIS Time Series Source Identifiers - DRAFT 20180511.pdf](/xseed-specification/IRIS%20Time%20Series%20Source%20Identifiers%20-%20DRAFT%2020180511.pdf)
 
 # Extra headers
 
@@ -37,6 +37,13 @@ JSON is not particularly readable by humans.  Here is a simple documentation gen
 [Example-ExtraHeaders-FDSN.json](/xseed-specification/ExtraHeaders/Example-ExtraHeaders-FDSN.json)
 
 ## Older drafts
+
+(DRAFT 2018-03-24)
+
+[xSEED - DRAFT 20180324.pdf](/xseed-specification/Old/xSEED%20-%20DRAFT%2020180324.pdf)
+
+[IRIS Time Series Identifiers - DRAFT 20180324.pdf](/xseed-specification/Old/IRIS%20Time%20Series%20Identifiers%20-%20DRAFT%2020180324.pdf)
+
 
 (DRAFT 2018-03-13)
 
