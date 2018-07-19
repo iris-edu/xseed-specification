@@ -36,7 +36,7 @@ JSON is not particularly readable by humans.  Here is a simple documentation gen
 
 All reserved, FDSN extra headers: [Example-ExtraHeaders-FDSN.json](/xseed-specification/ExtraHeaders/Example-ExtraHeaders-FDSN.json)
 
-FDSN plus none-FDSN extra headers: [Example-ExtraHeaders-FDSN-Plus.json] (/xseed-specification/ExtraHeaders/Example-ExtraHeaders-FDSN-Plus.json)
+FDSN plus none-FDSN extra headers: [Example-ExtraHeaders-FDSN-Plus.json](/xseed-specification/ExtraHeaders/Example-ExtraHeaders-FDSN-Plus.json)
 
 ## Older drafts
 
