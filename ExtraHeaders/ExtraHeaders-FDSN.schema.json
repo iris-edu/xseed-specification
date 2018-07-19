@@ -290,7 +290,7 @@
                                     "Trigger": {
                                         "description": "Calibration trigger, use AUTOMATIC or MANUAL.",
                                         "type": "string"
-                                    },
+                                    }
                                 }
                             }
                         }
