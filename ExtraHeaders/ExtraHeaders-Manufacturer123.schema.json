@@ -2,6 +2,7 @@
     "$schema": "http://json-schema.org/draft-07/schema#",
     "id": "http://www.fdsn.org/schemas/ExtraHeaders-Manufacturer123.schema.json",
 
+    "type": "object",
     "properties": {
         "Manufacturer123": {
             "description": "Extra headers defined by the Manufacturer123",

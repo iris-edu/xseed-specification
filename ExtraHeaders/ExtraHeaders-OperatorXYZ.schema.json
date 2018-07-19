@@ -2,6 +2,7 @@
     "$schema": "http://json-schema.org/draft-07/schema#",
     "id": "http://www.fdsn.org/schemas/ExtraHeaders-OperatorXYZ.schema.json",
 
+    "type": "object",
     "properties": {
         "OperatorXYZ": {
             "description": "Extra headers defined by the OperatorXYZ",
