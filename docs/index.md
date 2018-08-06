@@ -1,6 +1,6 @@
 ---
 layout: home
-title: xSEED-utils
+title: xseed-specification
 subtitle: "Utilities for a new miniSEED"
 ---
 Content goes here
