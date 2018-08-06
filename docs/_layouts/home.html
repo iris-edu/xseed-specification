@@ -1,0 +1,20 @@
+---
+layout: default
+---
+<article class="home" role="article">
+    <section class="landing" role="document">
+        <h1 class="title" role="presentation">{{ page.title | escape }}</h1>
+        <p class="subtitle">{{ page.subtitle | escape }}</p>
+    </section>
+    {{ content }}
+    <section class="news-tease" role="document">
+        <ul>
+            {% for posts in site.posts limit:5 %}
+            <li>
+                <a href="{{ post.url }}">{{ post.tite }}</a>
+                {{ post.excerpt }}
+            </li>
+            {% endfor %}
+        </ul>
+    </section>
+</article>

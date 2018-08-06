@@ -1,0 +1,10 @@
+<header class="header" role="banner" aria-label="Header">
+        <nav class="navigation" role="navigation" aria-label="Navigation">
+        <ul role="menu" aria-hidden="true" aria-label="Navigation menu">
+            <!-- TODO put in logo and link to clients site -->
+            {% for item in site.menu %}
+            <li role="menuitem"><a href="{{ item.url | relative_url }}" role="menuitem" aria-label="{{ item.title | escape }}">{{ item.title |escape }}</a></li>
+            {% endfor %}
+        </ul>
+    </nav>
+</header>

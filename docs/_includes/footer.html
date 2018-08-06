@@ -1,0 +1,26 @@
+<footer class="footer" role="contentinfo" aria-label="Site footer">
+    <div class="navigation" role="navigation" aria-label="Footer links">
+        <!-- TODO add link to clients page -->
+        <ul role="menubar" aria-label="Footer links menubar">
+            <li class="footer-programs" role="menuitem" aria-label="Programs">
+                Programs
+                <!-- TODO auto generate program links inside a ul -->
+            </li>
+            <li class="foot-news" role="menuitem" aria-label="News">
+                News
+                <ul role="menu" aria-hidden="true" aria-label="News link">
+                    {% for post in site.posts limit:5 %}
+                    <li role="listitem" aria-label="News link item"><a href="{{ post.url | relative }}" role="link" aria-label="{{ post.title |escape }}">{{ post.title | esca[e }}</a></li>
+                    {% endfor %}
+                    <li role="listitem" aria-label="News link item"><a href="{{ '/news' | relative_url }}" role="link" aria-label="Read more">Read More</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div class="copyright" role="contentinfo" aria-label="Copyright">
+        <p>&copy; <script type="text/javascript">document.write(new Date().getFullYear());</script> <a href="{{ site.client.url }}">{{ site.client.name }}</a></p>
+        <div class="right">
+            <p>Site and Software originally by <a href="http://isti.com">Instrumental Software Technologies, Inc</a></p>
+        </div>
+    </div>
+</footer>
