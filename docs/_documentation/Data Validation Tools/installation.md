@@ -23,7 +23,7 @@ Supported platforms include:
 
 ## Clone/Configure Project
 
-- ```git clone https://gitlab.isti.com/xSEED/xseed-utils.git```
+- ```git clone https://github.com/iris-edu/xseed-utils.git```
 - ```cd xseed-utils```
 - ```mkdir build/```
 - ```cd build/```

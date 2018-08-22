@@ -7,6 +7,6 @@ title: Download Software
 
 To access the xSEED software, use the links below:
 
-- [Navigate to the xSEED GitHub repository](https://gitlab.isti.com/xSEED/xseed-utils.git).
-- [Download the source files](https://gitlab.isti.com/xSEED/xseed-utils/-/archive/master/xseed-utils-master.zip).
+- [Navigate to the xSEED GitHub repository](https://github.com/iris-edu/xseed-utils).
+- [Download the source files](https://github.com/iris-edu/xseed-utils/archive/master.zip).
 
