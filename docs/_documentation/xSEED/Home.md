@@ -64,8 +64,8 @@ Access documentation for the utilities that convert and verify the xSEED standar
 
 - [Validator](https://iris-edu.github.io/xseed-specification/documentation/Data%20Validation%20Tools/Validator/)
 - [xSEED Converter](https://iris-edu.github.io/xseed-specification/documentation/xSEED%20Software/mSEED_Convert/)
-- [xSEED to JSON](https://iris-edu.github.io/xseed-specification/documentation/Data%20Validation%20Tools/xSEED%20to%20JSON/xSEED_to_JSON/)
-- [xSEED to Text](https://iris-edu.github.io/xseed-specification/documentation/Data%20Validation%20Tools/xSEED%20to%20Text/xSEED_to_Text/)
+- [xSEED to JSON](https://iris-edu.github.io/xseed-specification/documentation/Data%20Validation%20Tools/xSEED_to_JSON/)
+- [xSEED to Text](https://iris-edu.github.io/xseed-specification/documentation/Data%20Validation%20Tools/xSEED_to_Text/)
 
 **_Note:_** *You may also use the sidebar navigation menu to navigate to the xSEED Reference Data Set overview and examples, utilities, and installation instructions.*
 
