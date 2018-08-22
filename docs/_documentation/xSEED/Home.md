@@ -1,7 +1,8 @@
 ---
 layout: documentation
+category: xSEED
+order: 1
 title: Home
-subtitle: "Utilities for a new miniSEED"
 ---
 
 ## Welcome to xSEED!
@@ -19,7 +20,7 @@ Changes are being proposed to miniSEED due to identifier limitations for:
 
 However, changing the fundamental identifiers requires changes to key fields in miniSEED that would render it incompatible with the current release (2.4). Such a small yet disruptive change affords the opportunity to evolve to xSEED, a next generation time series data format that addresses a number of historical issues and creates new capability to address future needs.
 
-[Read the canonical xSEED specification](https://iris-edu.github.io/xseed-specification/xSEED%20-%20DRAFT%2020180511.pdf).
+[Read the canonical xSEED specification](https://github.com/iris-edu/xseed-specification/blob/master/xSEED%20-%20DRAFT%2020180511.pdf).
 
 #### xSEED Benefits
 

@@ -16,7 +16,7 @@
 title: xseed-specification
 email: xseed@iris.edu
 description: >- # this means to ignore newlines until "baseurl:"
-    xseed-specification
+    A collection of utilities for varidating and manipulating the miniSEED version 3.x
 baseurl: "/xseed-specification" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
@@ -47,21 +47,19 @@ collections:
 # End
         #
 menu:
-    - title: "Home"
+    - title: "xSEED Home"
       url: "/"
-    - title: "Documentation"
-      url: "/documentation"
-    - title: "Downloads"
-      url: "/download"
+    
 
 client:
     name: IRIS
     url: "https://iris.edu"
 
 category_order:
+    - 'xSEED'
     - 'xSEED Reference Set'
     - 'Data Validation Tools'
     - 'xSEED Software'
-    
+    - 'xSEED Project'
     
   

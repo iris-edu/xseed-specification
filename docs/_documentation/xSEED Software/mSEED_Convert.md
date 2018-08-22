@@ -1,17 +1,17 @@
 ---
 layout: documentation
-category: Data Validation Tools
-order: 3
-title: xSEED Converter
+category: xSEED Software
+order: 2
+title: mSEED Convert
 ---
 
 ## Description
 
-xSEED Converter converts an mSEED file <= v2 to v3 with optional extra header inject via a user-provided JSON file.
+mSEED Convert converts an mSEED file <= v2 to xSEED.
 
 ## Help
 
-xSEED to Converter usage information:
+mSEED Convert usage information:
 
 ```
 Usage: mseedconvert [options] -o outfile infile
