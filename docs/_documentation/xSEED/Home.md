@@ -56,16 +56,16 @@ Additional benefits include:
 
 #### xSEED Reference Data Set
 
-The xSEED Reference Data Set is a reference data set used for developing and testing software. To learn more about the xSEED Reference Data Set, refer to the [xSEED Data Reference Set Overview](https://xseed.pages.isti.com/xseed-utils/documentation/xSEED%20Reference%20Set/Overview/).
+The xSEED Reference Data Set is a reference data set used for developing and testing software. To learn more about the xSEED Reference Data Set, refer to the [xSEED Data Reference Set Overview](https://iris-edu.github.io/xseed-specification/documentation/xSEED%20Reference%20Set/Overview/).
 
 #### xSEED Utilities
 
 Access documentation for the utilities that convert and verify the xSEED standard for miniSEED files: 
 
-- [Validator](https://xseed.pages.isti.com/xseed-utils/documentation/Validator/Validator/)
-- [xSEED Converter](https://xseed.pages.isti.com/xseed-utils/documentation/xSEED%20to%20Converter/xSEED_to_Converter/)
-- [xSEED to JSON](https://xseed.pages.isti.com/xseed-utils/documentation/xSEED%20to%20JSON/xSEED_to_JSON/)
-- [xSEED to Text](https://xseed.pages.isti.com/xseed-utils/documentation/xSEED%20to%20Text/xSEED_to_Text/)
+- [Validator](https://iris-edu.github.io/xseed-specification/documentation/Validator/Validator/)
+- [xSEED Converter](https://iris-edu.github.io/xseed-specification/documentation/xSEED%20to%20Converter/xSEED_to_Converter/)
+- [xSEED to JSON](https://iris-edu.github.io/xseed-specification/documentation/xSEED%20to%20JSON/xSEED_to_JSON/)
+- [xSEED to Text](https://iris-edu.github.io/xseed-specification/documentation/xSEED%20to%20Text/xSEED_to_Text/)
 
 **_Note:_** *You may also use the sidebar navigation menu to navigate to the xSEED Reference Data Set overview and examples, utilities, and installation instructions.*
 
