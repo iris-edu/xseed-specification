@@ -63,9 +63,9 @@ The xSEED Reference Data Set is a reference data set used for developing and tes
 Access documentation for the utilities that convert and verify the xSEED standard for miniSEED files: 
 
 - [Validator](https://iris-edu.github.io/xseed-specification/documentation/Data%20Validation%20Tools/Validator/)
-- [xSEED Converter](https://iris-edu.github.io/xseed-specification/documentation/xSEED%20Software/mSEED_Convert/)
 - [xSEED to JSON](https://iris-edu.github.io/xseed-specification/documentation/Data%20Validation%20Tools/xSEED_to_JSON/)
 - [xSEED to Text](https://iris-edu.github.io/xseed-specification/documentation/Data%20Validation%20Tools/xSEED_to_Text/)
+- [mSEED Convert](https://iris-edu.github.io/xseed-specification/documentation/xSEED%20Software/mSEED_Convert/)
 
 **_Note:_** *You may also use the sidebar navigation menu to navigate to the xSEED Reference Data Set overview and examples, utilities, and installation instructions.*
 
