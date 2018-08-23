@@ -13,7 +13,7 @@ Extra headers are documented in JSON Schema. Click the links below to access JSO
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | Reserved, FDSN headers                                       | [ExtraHeaders-FDSN.schema.json](https://github.com/iris-edu/xseed-specification/blob/master/ExtraHeaders/ExtraHeaders-FDSN.schema.json) |
 | Example schemas of fictional extensions to the headers by Manufacturer123 and OperatorXYZ | - [ExtraHeaders-Manufacturer123.schema.json](https://github.com/iris-edu/xseed-specification/blob/master/ExtraHeaders/ExtraHeaders-Manufacturer123.schema.json)<br/>- [ExtraHeaders-OperatorXYZ.schema.json](https://github.com/iris-edu/xseed-specification/blob/master/ExtraHeaders/ExtraHeaders-OperatorXYZ.schema.json) |
-| References in JSON schema used to trivially combine all schemas, or selected schemas | [all-schemas.github.json](https://github.com/iris-edu/xseed-specification/blob/master/xseed-specification/ExtraHeaders/all-schemas.github.json) |
+| References in JSON schema used to trivially combine all schemas, or selected schemas | [all-schemas.github.json](https://github.com/iris-edu/xseed-specification/blob/master/ExtraHeaders/all-schemas.github.json) |
 
 ## Simplified Browsing of Extra Header Schemas
 
