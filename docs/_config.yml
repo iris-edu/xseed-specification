@@ -56,7 +56,6 @@ client:
     url: "https://iris.edu"
 
 category_order:
-    - 'xSEED'
     - 'xSEED Reference Set'
     - 'Data Validation Tools'
     - 'xSEED Software'
