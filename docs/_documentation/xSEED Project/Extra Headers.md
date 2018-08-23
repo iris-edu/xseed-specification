@@ -17,7 +17,7 @@ Extra headers are documented in JSON Schema. Click the links below to access JSO
 
 ## Simplified Browsing of Extra Header Schemas
 
-Although JSON is not particularly readable by humans, this simple documentation generator makes it easier to do so: [Docson documentation from JSON Schema](https://github.com/iris-edu/xseed-specification/blob/master/ExtraHeaders/all-schemas.github.json).
+Although JSON is not particularly readable by humans, this simple documentation generator makes it easier to do so: [Docson documentation from JSON Schema](https://lbovet.github.io/docson/).
 
 ## Examples of Extra Headers
 
