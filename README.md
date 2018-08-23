@@ -1,4 +1,4 @@
-[xSEED specification project on GitHub](https://github.com/iris-edu/xseed-specification) test
+[xSEED specification project on GitHub](https://github.com/iris-edu/xseed-specification)
 
 To contribute, ask questsions, etc. please use the [project issues](https://github.com/iris-edu/xseed-specification/issues)
 
