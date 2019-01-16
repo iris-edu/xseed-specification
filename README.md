@@ -4,8 +4,6 @@ To contribute, ask questsions, etc. please use the [project issues](https://gith
 
 Current draft of the IRIS xSEED and time series identifiers specifications:
 
-(DRAFT 2018-05-11)
-
 [xSEED - DRAFT 20180511.pdf](/xseed-specification/xSEED%20-%20DRAFT%2020180511.pdf)
 
 [xFDSN Source Identifiers - DRAFT 20190115.pdf](/xseed-specification/xFDSN%20Source%20Identifiers%20-%20DRAFT%2020190115.pdf)
