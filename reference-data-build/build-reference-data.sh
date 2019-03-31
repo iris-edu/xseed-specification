@@ -34,4 +34,4 @@ mseedconvert baseline-record-sinusoid.mseed -R 11 -eh ExtraHeader-TQ-TC-ED.json 
 mseedconvert baseline-record-sinusoid.mseed -R 11 -eh ExtraHeader-FDSN-Plus.json -o reference-sinusoid-FDSN-Plus.xseed
 
 # Steim-2 compressed data, with all FDSN extra headers
-mseedconvert baseline-record-sinusoid.mseed -R 11 -eh ExtraHeaders-FDSN-All.json -o reference-sinusoid-FDSN-All.xseed
+mseedconvert baseline-record-sinusoid.mseed -R 11 -eh ExtraHeader-FDSN-All.json -o reference-sinusoid-FDSN-All.xseed
