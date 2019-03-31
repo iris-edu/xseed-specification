@@ -42,6 +42,10 @@
                             "description": "Time correction applied to record start time in seconds. [same as SEED 2.4 FSDH, field 16]",
                             "type": "number"
                         },
+                        "MaxEstimatedError": {
+                            "description": "Maximum estimated timing error in seconds.",
+                            "type": "number"
+                        },
                         "LeapSecond": {
                             "description": "If present, one or more leap seconds occuring during this record.  The value specifies the number of leap seconds and direction.  For example, use 1 to specify a single positive leap second and -1 to specify a single negative leap second. [incorporates SEED 2.4 FSDH, field 12, bits 4 and 5]",
                             "type": "integer"
