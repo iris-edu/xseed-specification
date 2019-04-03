@@ -12,8 +12,8 @@ xseed2text -d reference-detectiononly.xseed > reference-detectiononly.txt
 # ASCII data
 echo Building reference-ascii.xseed
 mseedconvert baseline-record-ascii.mseed -o reference-ascii.xseed
-xseed2json -d reference-ascii.xseed > reference-detectiononly.json
-xseed2text -d reference-ascii.xseed > reference-detectiononly.txt
+xseed2json -d reference-ascii.xseed > reference-ascii.json
+xseed2text -d reference-ascii.xseed > reference-ascii.txt
 
 # 16-bit integer data
 echo Building reference-sinusoid-int16.xseed
