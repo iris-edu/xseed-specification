@@ -2,11 +2,14 @@
     "SID": "XFDSN:XX_TEST__L_H_Z",
     "RecordLength": 1318,
     "FormatVersion": 3,
+    "Flags": {
+        "ClockLocked": true
+    },
     "StartTime": "2012,001,00:00:00Z",
     "EncodingFormat": 11,
     "SampleRate": 1,
     "SampleCount": 500,
-    "CRC": "0x15CA189E",
+    "CRC": "0x12D6E8D4",
     "PublicationVersion": 1,
     "ExtraLength": 362,
     "DataLength": 896,
