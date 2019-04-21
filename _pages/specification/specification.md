@@ -7,10 +7,9 @@ sidebar:
 classes: wide
 ---
 
-{% highlight %}
-**NOTE** The current specification for xSEED and the related xFDSN Source
+**NOTE**: the current specification for xSEED and the related xFDSN Source
 Identifiers are in **DRAFT** and are subject to change.
-{% endhighlight %}
+{: .notice--warning}
 
 ## Downloads
 
