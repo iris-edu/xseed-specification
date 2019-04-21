@@ -1,0 +1,11 @@
+
+Things that still need consideration:
+
+- Convention for location codes
+
+- Convention for time quality values
+
+- Define source codes for synthetic, derived and metadata
+
+- Header(s) for documenting estimated clock drift
+

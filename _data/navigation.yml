@@ -1,0 +1,37 @@
+main:
+  - title: "Overview"
+    url: /overview/
+  - title: "Specification"
+    url: /specification/
+  - title: "Reference Data"
+    url: /reference-data/
+  - title: "Software"
+    url: /software/
+
+#overview-sidebar:
+#  - title: "Overview"
+#    url: /overview/
+#  - title: "History"
+#    url: /overview/history/
+
+specification-sidebar:
+  - title: "Specification"
+    children:
+    - title: "General structure"
+      url: /specification/#general-structure
+    - title: "Record layout"
+      url: /specification/#record-layout-and-fields
+    - title: "Extra headers"
+      url: /specification/extraheaders/
+    - title: "FDSN reserved headers"
+      url: /specification/extraheaders/#fdsn-reserved-headers
+
+software-sidebar:
+  - title: "Software"
+    children:
+    - title: "validation"
+      url: /software/validation/
+    - title: "mseedconvert"
+      url: /software/mseedconvert/
+    - title: "libmseed"
+      url: /software/libmseed/

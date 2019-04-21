@@ -1,5 +1,0 @@
-| Example File Identifier                                      | Example File Description                                     |
-| ------------------------------------------------------------ | ------------------------------------------------------------ |
-| [1-reference-record-steim2.xseed](https://iris-edu.github.io/xseed-specification/documentation/xSEED%20Reference%20Set/Reference-Set-1/) | - Steim2 encoding<br />- 500 samples<br />- No extra headers |
-| [2-reference-record-steim2_EH-FDSN-TQ-ED-TC.xseed](https://iris-edu.github.io/xseed-specification/documentation/xSEED%20Reference%20Set/Reference-Set-2/) | - Steim2 encoding<br />- 500 samples<br />- FDSN extra headers:<br />   - Time Quality<br />   - Event Detection<br />   - Time Correction |
-| [3-reference-record-steim2_EH-FDSN-TQ-ED-TC-Oper-Manu.xseed](https://iris-edu.github.io/xseed-specification/documentation/xSEED%20Reference%20Set/Reference-Set-3/) | - Steim2 encoding<br />- 500 samples<br />- FDSN extra headers:<br />   - Time Quality<br />   - Event Detection<br />   - Time Correction<br />- Non-FDSN headers:<br />   - Manufacturer123<br />   - OperatorXYZ |

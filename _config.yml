@@ -13,52 +13,56 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: xseed-specification
-email: xseed@iris.edu
+title: xSEED Data Format
+email:
 description: >- # this means to ignore newlines until "baseurl:"
-    A collection of utilities for varidating and manipulating the miniSEED version 3.x
-baseurl: "/xseed-specification" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-#twitter_username: jekyllrb
-#github_username:  jekyll
+    Specification and related tools for a next generation miniSEED data format
+baseurl: "/xseed-specification"
+url: ""
+github_username: iris-edu
+minimal_mistakes_skin: default
+search: true
 
 # Build settings
 markdown: kramdown
-theme: minima
-plugins:
-  - jekyll-feed
+remote_theme: "mmistakes/minimal-mistakes@4.16.0"
+
+# Outputting
+permalink: /:categories/:title/
+#paginate: 5 # amount of posts to show
+#paginate_path: /page:num/
+timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+include:
+- _pages
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
-#
-collections:
-    documentation:
-        output: true
-        permalink: /:collection/:path/
-# End
-        #
-menu:
-    - title: "xSEED Home"
-      url: "/"
-    
+exclude:
+   - Gemfile
+   - Gemfile.lock
+   - node_modules
+   - vendor/bundle/
+   - vendor/cache/
+   - vendor/gems/
+   - vendor/ruby/
+   - reference-data-build/
 
-client:
-    name: IRIS
-    url: "https://iris.edu"
+footer:
+  links:
+    - label: "GitHub"
+      url: "https://github.com/iris-edu/xseed-specification"
 
-category_order:
-    - 'xSEED Reference Set'
-    - 'Data Validation Tools'
-    - 'xSEED Software'
-    - 'xSEED Project'
-    
-  
+# Defaults
+defaults:
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
