@@ -1,5 +1,5 @@
 ---
-permalink: /reference-data
+permalink: /reference-data/
 title: Reference data set
 toc: false
 layout: single
