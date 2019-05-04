@@ -1,6 +1,6 @@
 main:
   - title: "Overview"
-    url: /overview/
+    url: /
   - title: "Specification"
     url: /specification/
   - title: "Reference Data"
@@ -8,11 +8,20 @@ main:
   - title: "Software"
     url: /software/
 
-#overview-sidebar:
-#  - title: "Overview"
-#    url: /overview/
-#  - title: "History"
-#    url: /overview/history/
+overview-sidebar:
+  - title: "Overview"
+    url: /
+    children:
+    - title: "Motivation"
+      url: /#motivation
+    - title: "Enhancements"
+      url: /#xseed-enhancements
+    - title: "Unsupported"
+      url: /#unsupported-data-structures
+    - title: "History"
+      url: /#history-and-context
+  - title: "Frequently Asked Questions"
+    url: /faq
 
 specification-sidebar:
   - title: "Specification"
@@ -30,8 +39,8 @@ software-sidebar:
   - title: "Software"
     children:
     - title: "validation"
-      url: /software/validation/
+      url: /software/#validation
     - title: "mseedconvert"
-      url: /software/mseedconvert/
+      url: /software/#mseedconvert
     - title: "libmseed"
-      url: /software/libmseed/
+      url: /software/#libmseed

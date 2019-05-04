@@ -2,9 +2,9 @@
 permalink: /specification/
 title: Specification
 toc: false
+classes: wide
 sidebar:
   nav: "specification-sidebar"
-classes: wide
 ---
 
 **NOTE**: the current specification for xSEED and the related xFDSN Source
@@ -15,11 +15,15 @@ Identifiers are in **DRAFT** and are subject to change.
 
 The current specification for xSEED:
 
-[xSEED - DRAFT 20190402 specification](../xSEED-DRAFT20190402.pdf)
+[xSEED - DRAFT 20190402 specification](../docs/xSEED-DRAFT20190402.pdf)
 
-The current specification for xFDSN Source Identifiers used in xSEED:
+The xSEED specification requires the use of a Uniform Resource Name
+(URN) or similar as a source identifier.  To satisfy this requirement
+we have developed a specification that combines SEED identifiers into
+a URN.  While not specifically part of xSEED, it is closely related
+and for expediency the specification is posted here:
 
-[xSEED - DRAFT 20190402 specification](../xFDSNSourceIdentifiers-DRAFT20190115.pdf)
+[xFDSN Source Identifiers - DRAFT 20190115 specification](../docs/xFDSNSourceIdentifiers-DRAFT20190115.pdf)
 
 ## General structure
 
@@ -41,29 +45,29 @@ the sum of 40 (length of fixed section of header), field 10 (length of
 identifier), field 11 (length of extra headers), field 12 (length of
 payload).
 
-| Field | Field Name                       | Type    | Length | Offset                   | Content        |
-| ----- | -------------------------------- | ------- | ------ | ------------------------ | -------------- |
-| 1     | Record header indicator ('MS')   | CHAR    | 2      | 0                        | ASCII 'MS'     |
-| 2     | Format version (3)               | UINT8   | 1      | 2                        |                |
-| 3     | Flags                            | UINT8   | 1      | 3                        |                |
-|       | Record Start Time                |         |        |                          |                |
-| 4a    | Nanosecond (0 - 999999999)       | UINT32  | 4      | 4                        |                |
-| 4b    | Year (0 - 65535)                 | UINT16  | 2      | 8                        |                |
-| 4c    | Day-of-year ( 1 - 366)           | UINT16  | 2      | 10                       |                |
-| 4d    | Hour (0 - 23)                    | UINT8   | 1      | 12                       |                |
-| 4e    | Minute (0 - 59)                  | UINT8   | 1      | 13                       |                |
-| 4f    | Second (0 - 60)                  | UINT8   | 1      | 14                       |                |
-| 5     | Data encoding format             | UINT8   | 1      | 15                       |                |
-| 6     | Sample rate/period               | FLOAT64 | 8      | 16                       |                |
-| 7     | Number of samples                | UINT32  | 4      | 24                       |                |
-| 8     | CRC of the record                | UINT32  | 4      | 28                       |                |
-| 9     | Data publication version         | UINT8   | 1      | 32                       |                |
-| 10    | Length of identifier in bytes    | UINT8   | 1      | 33                       |                |
-| 11    | Length of extra headers in bytes | UINT16  | 2      | 34                       |                |
-| 12    | Length of data payload in bytes  | UINT32  | 2      | 36                       |                |
-| 13    | Time series identifier           | CHAR    | V      | 40                       | URN identifier |
-| 14    | Extra header fields              | JSON    | V      | 40 + field 10            |                |
-| 15    | Data payload                     | encoded | V      | 40 + field 10 + field 11 |                |
+| Field | Field Name                          | Type    | Length | Offset                   | Content        |
+| ----- | ----------------------------------- | ------- | ------ | ------------------------ | -------------- |
+| 1     | Record header indicator ('MS')      | CHAR    | 2      | 0                        | ASCII 'MS'     |
+| 2     | Format version (3)                  | UINT8   | 1      | 2                        |                |
+| 3     | Flags                               | UINT8   | 1      | 3                        |                |
+|       | Record Start Time                   |         |        |                          |                |
+| 4a    | Nanosecond (0 - 999999999)          | UINT32  | 4      | 4                        |                |
+| 4b    | Year (0 - 65535)                    | UINT16  | 2      | 8                        |                |
+| 4c    | Day-of-year ( 1 - 366)              | UINT16  | 2      | 10                       |                |
+| 4d    | Hour (0 - 23)                       | UINT8   | 1      | 12                       |                |
+| 4e    | Minute (0 - 59)                     | UINT8   | 1      | 13                       |                |
+| 4f    | Second (0 - 60)                     | UINT8   | 1      | 14                       |                |
+| 5     | Data encoding format                | UINT8   | 1      | 15                       |                |
+| 6     | Sample rate/period                  | FLOAT64 | 8      | 16                       |                |
+| 7     | Number of samples                   | UINT32  | 4      | 24                       |                |
+| 8     | CRC of the record                   | UINT32  | 4      | 28                       |                |
+| 9     | Data publication version            | UINT8   | 1      | 32                       |                |
+| 10    | Length of identifier in bytes       | UINT8   | 1      | 33                       |                |
+| 11    | Length of extra headers in bytes    | UINT16  | 2      | 34                       |                |
+| 12    | Length of data payload in bytes     | UINT32  | 2      | 36                       |                |
+| 13    | Time series identifier              | CHAR    | V      | 40                       | URN identifier |
+| 14    | [Extra header](extraheaders) fields | JSON    | V      | 40 + field 10            |                |
+| 15    | Data payload                        | encoded | V      | 40 + field 10 + field 11 |                |
 
 All length values are specified in bytes, which are assumed to be 8-bits in length.   Data types for each field are defined as follows:
 

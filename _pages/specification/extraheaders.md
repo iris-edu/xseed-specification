@@ -7,7 +7,7 @@ sidebar:
 ---
 
 Extra headers are encoded in the JSON Data Interchange Standard as
-defined by ​[ECMA-404](https://www.ecma-international.org/publications/files/ECMA-ST/ECMA-404.pdf)​.
+defined by [ECMA-404](https://www.ecma-international.org/publications/files/ECMA-ST/ECMA-404.pdf).
 All extra headers are optional as far as the format is concerned.
 
 Note, extra headers are stored in _compact_ (or minimized) JSON, that
@@ -17,18 +17,18 @@ Extra headers must follow these rules:
 
 * All extra headers are contained in an anonymous (unnamed) object
 * All entries are key-value pairs where values can be any valid JSON type
-* The key value of “FDSN” in the root object is reserved for values defined by the FDSN
+* The key value of `"FDSN"` in the root object is reserved for values defined by the FDSN
 
 ### FDSN reserved headers
 
-The key named “FDSN” with value of an JSON object in the root container of the extra headers is
+The key named `"FDSN"` with value of an JSON object in the root container of the extra headers is
 reserved for definition by the FDSN.  The documentation and schema of these headers are specified
 in JSON Schema here:
 
-[FDSN Reserved Extra Header Schema](../../ExtraHeaders/ExtraHeaders-FDSN.schema.json)
+[FDSN Reserved Extra Header Schema](../../extra-headers/ExtraHeaders-FDSN.schema.json)
 
-When not present, the boolean values in the FDSN reserved headers should be considered to be ​false
-unless otherwise documented. Such values do not need to be included when the value is ​false.​
+When not present, the boolean values in the FDSN reserved headers should be considered to be `false`
+unless otherwise documented. Such values do not need to be included when the value is `false`.
 
 ### Extension and examples
 
