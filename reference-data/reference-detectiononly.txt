@@ -6,7 +6,7 @@ XFDSN:IU_ANMO_00_B_H_Z, version 2, 331 bytes (format: 3)
                     CRC: 0xFAD7F7CA
     extra header length: 269 bytes
     data payload length: 0 bytes
-       payload encoding: ASCII text (val: 0)
+       payload encoding: Text (val: 0)
           extra headers:
                 "FDSN": {
                   "Event": {

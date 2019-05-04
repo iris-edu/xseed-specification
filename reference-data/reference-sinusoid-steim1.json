@@ -6,10 +6,10 @@
         "ClockLocked": true
     },
     "StartTime": "2012,001,00:00:00Z",
-    "EncodingFormat": 11,
+    "EncodingFormat": 10,
     "SampleRate": 1,
     "SampleCount": 500,
-    "CRC": "0x5CFF0548",
+    "CRC": "0x4013615C",
     "PublicationVersion": 1,
     "ExtraLength": 0,
     "DataLength": 896,

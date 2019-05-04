@@ -1,18 +1,37 @@
 {
     "SID": "XFDSN:XX_TEST__L_H_Z",
-    "RecordLength": 4060,
+    "RecordLength": 1149,
     "FormatVersion": 3,
     "Flags": {
         "ClockLocked": true
     },
     "StartTime": "2012,001,00:00:00Z",
-    "EncodingFormat": 5,
+    "EncodingFormat": 11,
     "SampleRate": 1,
     "SampleCount": 500,
-    "CRC": "0x4B4E7103",
+    "CRC": "0xAD550F83",
     "PublicationVersion": 1,
-    "ExtraLength": 0,
-    "DataLength": 4000,
+    "ExtraLength": 193,
+    "DataLength": 896,
+    "ExtraHeaders": {
+        "FDSN": {
+            "Time": {
+                "Quality": 90
+            }
+        },
+        "Manufacturer123": {
+            "Metadata": {
+                "FilamentCurrent": 16.4,
+                "HyperCoordinates": "1.1789:965402:73324@3.14159"
+            }
+        },
+        "OperatorXYZ": {
+            "DSP": {
+                "PeakRMS": 2067,
+                "RMSWindow": 10.5
+            }
+        }
+    },
     "Data": [
         0,
         2,

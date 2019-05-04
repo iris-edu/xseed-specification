@@ -1,13 +1,31 @@
-XFDSN:XX_TEST__L_H_Z, version 1, 956 bytes (format: 3)
+XFDSN:XX_TEST__L_H_Z, version 1, 1149 bytes (format: 3)
              start time: 2012,001,00:00:00.000000
       number of samples: 500
        sample rate (Hz): 1
                   flags: [00100000] 8 bits
                          [Bit 2] Clock locked
-                    CRC: 0x4013615C
-    extra header length: 0 bytes
+                    CRC: 0xAD550F83
+    extra header length: 193 bytes
     data payload length: 896 bytes
-       payload encoding: STEIM-1 integer compression (val: 10)
+       payload encoding: STEIM-2 integer compression (val: 11)
+          extra headers:
+                "FDSN": {
+                  "Time": {
+                    "Quality": 90
+                  }
+                },
+                "Manufacturer123": {
+                  "Metadata": {
+                    "FilamentCurrent": 16.4,
+                    "HyperCoordinates": "1.1789:965402:73324@3.14159"
+                  }
+                },
+                "OperatorXYZ": {
+                  "DSP": {
+                    "PeakRMS": 2067,
+                    "RMSWindow": 10.5
+                  }
+                }
 Data:
          0           2           4           5           7           9  
         10          11          11          11          11          10  

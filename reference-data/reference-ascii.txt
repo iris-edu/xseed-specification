@@ -6,6 +6,6 @@ XFDSN:XX_TEST__L_H_Z, version 1, 295 bytes (format: 3)
                     CRC: 0x58D3631
     extra header length: 0 bytes
     data payload length: 235 bytes
-       payload encoding: ASCII text (val: 0)
+       payload encoding: Text (val: 0)
 Data:
 I've seen things you people wouldn't believe. Attack ships on fire off the shoulder of Orion. I watched C-beams glitter in the dark near the Tannhäuser Gate. All those moments will be lost in time, like tears...in...rain. Time to die.

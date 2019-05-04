@@ -7,7 +7,7 @@ XFDSN:XX_TEST__L_H_Z, version 1, 956 bytes (format: 3)
                     CRC: 0x5CFF0548
     extra header length: 0 bytes
     data payload length: 896 bytes
-       payload encoding: STEIM 2 Compression (val: 11)
+       payload encoding: STEIM-2 integer compression (val: 11)
 Data:
          0           2           4           5           7           9  
         10          11          11          11          11          10  

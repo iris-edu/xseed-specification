@@ -1,13 +1,13 @@
-XFDSN:XX_TEST__L_H_Z, version 1, 956 bytes (format: 3)
+XFDSN:XX_TEST__L_H_Z, version 1, 4060 bytes (format: 3)
              start time: 2012,001,00:00:00.000000
       number of samples: 500
        sample rate (Hz): 1
                   flags: [00100000] 8 bits
                          [Bit 2] Clock locked
-                    CRC: 0x5CFF0548
+                    CRC: 0x4B4E7103
     extra header length: 0 bytes
-    data payload length: 896 bytes
-       payload encoding: STEIM 2 Compression (val: 11)
+    data payload length: 4000 bytes
+       payload encoding: 64-bit float (IEEE double) (val: 5)
 Data:
          0           2           4           5           7           9  
         10          11          11          11          11          10  
