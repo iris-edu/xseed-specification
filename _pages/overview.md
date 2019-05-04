@@ -12,6 +12,8 @@ archive and exchange format for time series data.  As an evolution of
 [miniSEED](http://ds.iris.edu/ds/nodes/dmc/data/formats/miniseed/)
 the format is particularly suited for seismological and related data.
 
+Go straight to [the specification](specification/).
+
 The format was developed to match the [requirements for a next
 generation format
 (NGF)](https://docs.google.com/document/d/1ymAe9v1rUuucpY7ai5ilKsD7V1ejwt6GxQQmJ5IevDI/edit)

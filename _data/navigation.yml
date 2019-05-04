@@ -21,7 +21,7 @@ overview-sidebar:
     - title: "History"
       url: /#history-and-context
   - title: "Frequently Asked Questions"
-    url: /faq
+    url: /faq/
 
 specification-sidebar:
   - title: "Specification"

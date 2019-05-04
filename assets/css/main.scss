@@ -12,7 +12,7 @@
 }
 
 html {
-  font-size: $type-size-4;
+  font-size: $type-size-5;
 
   @include breakpoint($medium) {
     font-size: $type-size-5;

@@ -4,7 +4,8 @@ sidebar:
   nav: "software-sidebar"
 ---
 
-Software that supports the xSEED data format
+Software that supports the xSEED data format is listed below.  Much
+more coming!
 
 ### Validation
 
