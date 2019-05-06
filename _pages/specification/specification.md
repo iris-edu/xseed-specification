@@ -15,7 +15,7 @@ Identifiers are in **DRAFT** and are subject to change.
 
 The current specification for xSEED:
 
-[xSEED - DRAFT 20190402 specification](../docs/xSEED-DRAFT20190402.pdf)
+[xSEED - DRAFT 20190402 specification](../docs/xSEED-DRAFT20190506.pdf)
 
 The xSEED specification requires the use of a Uniform Resource Name
 (URN) or similar as a source identifier.  To satisfy this requirement
@@ -64,7 +64,7 @@ payload).
 | 9     | Data publication version            | UINT8   | 1      | 32                       |                |
 | 10    | Length of identifier in bytes       | UINT8   | 1      | 33                       |                |
 | 11    | Length of extra headers in bytes    | UINT16  | 2      | 34                       |                |
-| 12    | Length of data payload in bytes     | UINT32  | 2      | 36                       |                |
+| 12    | Length of data payload in bytes     | UINT32  | 4      | 36                       |                |
 | 13    | Time series identifier              | CHAR    | V      | 40                       | URN identifier |
 | 14    | [Extra header](extraheaders) fields | JSON    | V      | 40 + field 10            |                |
 | 15    | Data payload                        | encoded | V      | 40 + field 10 + field 11 |                |

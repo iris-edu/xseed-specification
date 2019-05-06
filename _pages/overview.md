@@ -23,7 +23,7 @@ list annoucement](http://www.fdsn.org/message-center/thread/514/#m-944).
 
 ### Motivation
 
-The key issue motivating a change to miniSEED 2.4 are limitations with
+The key issue motivating changes to miniSEED 2.4 are limitations with
 identifiers for deployments with a very large number of nodes, new
 instruments and other data source types, e.g. synthetic data.  In
 addition, there are many anachronisms and omissions in the format that
