@@ -7,9 +7,9 @@ sidebar:
   nav: "specification-sidebar"
 ---
 
+{: .notice--warning}
 **NOTE**: the current specification for xSEED and the related xFDSN Source
 Identifiers are in **DRAFT** and are subject to change.
-{: .notice--warning}
 
 ## Downloads
 
