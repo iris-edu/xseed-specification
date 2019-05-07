@@ -23,7 +23,7 @@ we have developed a specification that combines SEED identifiers into
 a URN.  While not specifically part of xSEED, it is closely related
 and for expediency the specification is posted here:
 
-[xFDSN Source Identifiers - DRAFT 20190115 specification](../docs/xFDSNSourceIdentifiers-DRAFT20190115.pdf)
+[xFDSN Source Identifiers - DRAFT 20190506 specification](../docs/xFDSNSourceIdentifiers-DRAFT20190506.pdf)
 
 ## General structure
 
@@ -31,10 +31,11 @@ The fundamental unit of the format is a data record.  A time series is
 commonly stored and exchanged as a sequence of these records.  Each
 record is independently usable even when presented in a sequence.
 There are data encodings for integers, floats, text or compressed data
-samples.  To limit problems with timing system drift & resolution and
-practical issues of subsetting & resource limitation for readers of
-the data, typical record lengths for raw data generation and archiving
-are recommended to be in the range of 256 and 4096 bytes.
+samples.  To limit problems with timing system drift and resolution in
+addition to practical issues of subsetting and resource limitation for
+readers of the data, typical record lengths for raw data generation
+and archiving are recommended to be in the range of 256 and 4096
+bytes.
 
 ## Record layout and fields
 
