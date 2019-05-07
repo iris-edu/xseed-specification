@@ -24,10 +24,10 @@ will be updated to support reading both miniSEED 2.4 and this format
 seamlessly.
 
 {: .notice}
-Expanded network, station, location and channel codes are the most
+**Expanded network, station, location and channel codes are the most
 likely changes that will effect data users.  The expansion of these
 codes is not defined by the format directly, but will instead be
-determined by a separate specification.
+determined by a separate specification.**
 
 ## Is there software for xSEED?
 
