@@ -15,7 +15,7 @@ Identifiers are in **DRAFT** and are subject to change.
 
 The current specification for xSEED:
 
-[xSEED - DRAFT 20190506 specification](../docs/xSEED-DRAFT20190506.pdf)
+[xSEED - DRAFT 20190509 specification](../docs/xSEED-DRAFT20190509.pdf)
 
 The xSEED specification requires the use of a Uniform Resource Name
 (URN) or similar as a source identifier.  To satisfy this requirement
@@ -23,7 +23,7 @@ we have developed a specification that combines SEED identifiers into
 a URN.  While not specifically part of xSEED, it is closely related
 and for expediency the specification is posted here:
 
-[xFDSN Source Identifiers - DRAFT 20190508 specification](../docs/xFDSNSourceIdentifiers-DRAFT20190508.pdf)
+[xFDSN Source Identifiers - DRAFT 20190509 specification](../docs/xFDSNSourceIdentifiers-DRAFT20190509.pdf)
 
 ## General structure
 
