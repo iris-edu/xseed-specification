@@ -51,7 +51,7 @@
                             "type": "integer"
                         },
                         "Exception": {
-                            "description": "List of timinig exceptions",
+                            "description": "List of timing exceptions",
                             "type": "array",
                             "items": {
                                 "type": "object",
