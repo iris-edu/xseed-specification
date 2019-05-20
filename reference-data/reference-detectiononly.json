@@ -2,7 +2,10 @@
     "SID": "XFDSN:IU_ANMO_00_B_H_Z",
     "RecordLength": 331,
     "FormatVersion": 3,
-    "StartTime": "2004,210,20:28:09Z",
+    "Flags": {
+        "RawUInt8": 0
+    },
+    "StartTime": "2004-07-28T20:28:09.000000000Z",
     "EncodingFormat": 0,
     "SampleRate": 0,
     "SampleCount": 0,

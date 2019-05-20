@@ -2,7 +2,10 @@
     "SID": "XFDSN:XX_TEST__L_H_Z",
     "RecordLength": 295,
     "FormatVersion": 3,
-    "StartTime": "2012,001,00:00:00Z",
+    "Flags": {
+        "RawUInt8": 0
+    },
+    "StartTime": "2012-01-01T00:00:00.000000000Z",
     "EncodingFormat": 0,
     "SampleRate": 1,
     "SampleCount": 235,

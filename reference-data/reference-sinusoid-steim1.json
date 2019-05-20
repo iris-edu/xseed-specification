@@ -3,9 +3,10 @@
     "RecordLength": 956,
     "FormatVersion": 3,
     "Flags": {
+        "RawUInt8": 4,
         "ClockLocked": true
     },
-    "StartTime": "2012,001,00:00:00Z",
+    "StartTime": "2012-01-01T00:00:00.000000000Z",
     "EncodingFormat": 10,
     "SampleRate": 1,
     "SampleCount": 500,
