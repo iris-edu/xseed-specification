@@ -17,7 +17,7 @@ xseed2text -d reference-ascii.xseed > reference-ascii.txt
 
 # 16-bit integer data
 echo Building reference-sinusoid-int16.xseed
-mseedconvert baseline-record-sinusoid.mseed -E 1 -o reference-sinusoid-int16.xseed
+mseedconvert baseline-record-sinusoid-400.mseed -E 1 -o reference-sinusoid-int16.xseed
 xseed2json -d reference-sinusoid-int16.xseed > reference-sinusoid-int16.json
 xseed2text -d reference-sinusoid-int16.xseed > reference-sinusoid-int16.txt
 
