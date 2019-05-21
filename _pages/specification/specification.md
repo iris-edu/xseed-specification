@@ -23,7 +23,7 @@ we have developed a specification that combines SEED identifiers into
 a URN.  While not specifically part of xSEED, it is closely related
 and for expediency the specification is posted here:
 
-[xFDSN Source Identifiers - DRAFT 20190509 specification](../docs/xFDSNSourceIdentifiers-DRAFT20190509.pdf)
+[xFDSN Source Identifiers - DRAFT 20190520 specification](../docs/xFDSNSourceIdentifiers-DRAFT20190520.pdf)
 
 ## General structure
 
