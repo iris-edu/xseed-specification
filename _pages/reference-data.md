@@ -34,3 +34,5 @@ the same expanding sinusoid signal.
 | 9  | Series with FDSN time quality, correction, and event detections headers | [xSEED](../reference-data/reference-sinusoid-TQ-TC-ED.xseed) [JSON](../reference-data/reference-sinusoid-TQ-TC-ED.json) [Text](../reference-data/reference-sinusoid-TQ-TC-ED.txt) |
 | 10 | Series with some FDSN and non-FDSN extra headers                | [xSEED](../reference-data/reference-sinusoid-FDSN-Other.xseed) [JSON](../reference-data/reference-sinusoid-FDSN-Other.json) [Text](../reference-data/reference-sinusoid-FDSN-Other.txt) |
 | 11 | Series with all FDSN extra headers (unrealistic)                | [xSEED](../reference-data/reference-sinusoid-FDSN-All.xseed) [JSON](../reference-data/reference-sinusoid-FDSN-All.json) [Text](../reference-data/reference-sinusoid-FDSN-All.txt) |
+
+This [baseline miniSEED](../reference-data-build/baseline-record-sinusoid.mseed) is the miniSEED 2 equivalent to reference #8 (sinusoid series encoded as Steim-2 compressed integers).
