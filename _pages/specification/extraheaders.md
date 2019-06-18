@@ -32,7 +32,7 @@ unless otherwise documented. Such values do not need to be included when the val
 
 ### Browse FDSN headers
 
-Browse the reserved FDSN headers with included documentation:
+The reserved FDSN headers with included documentation:
 
 <script src="/xseed-specification/assets/js/docson/public/js/widget.js" data-schema="/xseed-specification/extra-headers/ExtraHeaders-FDSN.schema.json"></script>
 
