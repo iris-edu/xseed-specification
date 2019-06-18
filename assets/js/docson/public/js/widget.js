@@ -9092,7 +9092,7 @@ if (script.attributes["data-schema"]) {
     } else {
         docson = script.src.replace("js/widget.js", "index.html");
     }
-    document.write("<iframe class='docson-widget' id='" + script.attributes["data-schema"].value + "' style='padding: 0; border: 0; width:100%; background: transparent' src='" + docson + "#" + script.attributes["data-schema"].value + "'></iframe>");
+    document.write("<iframe class='docson-widget' id='" + script.attributes["data-schema"].value + "' style='padding: 0; border: 0; width:100%; background: transparent' scrolling='no' src='" + docson + "#" + script.attributes["data-schema"].value + "'></iframe>");
     function receiveMessage(event) {
         if (event.data.id && event.data.id == "docson") {
             var frame = document.getElementById(event.data.url);
@@ -9112,3 +9112,4 @@ if (script.attributes["data-schema"]) {
 
 /***/ })
 /******/ ]);
+
