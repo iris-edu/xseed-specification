@@ -23,12 +23,18 @@ Extra headers must follow these rules:
 
 The key named `"FDSN"` with value of an JSON object in the root container of the extra headers is
 reserved for definition by the FDSN.  The documentation and schema of these headers are specified
-in JSON Schema here:
+in [JSON Schema](https://json-schema.org/) here:
 
 [FDSN Reserved Extra Header Schema](../../extra-headers/ExtraHeaders-FDSN.schema.json)
 
 When not present, the boolean values in the FDSN reserved headers should be considered to be `false`
 unless otherwise documented. Such values do not need to be included when the value is `false`.
+
+### Browse FDSN headers
+
+Browse the reserved FDSN headers with included documentation:
+
+<script src="/xseed-specification/assets/js/docson/public/js/widget.js" data-schema="/xseed-specification/extra-headers/ExtraHeaders-FDSN.schema.json"></script>
 
 ### Extension and examples
 
